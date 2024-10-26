@@ -80,7 +80,7 @@ h1 {
     font-size: 2.2em;
     font-weight: bold;
     padding: 10px 0 0;
-    color: #ff0eb5;
+    color: #498ec5;
 }
 
 p {
@@ -100,7 +100,7 @@ p {
 }
 
 .button-container button {
-    background-color: #CDD4FF;
+    background-color: #498ec5;
     font-family: Tektur;
     color: white;
     border: none;
@@ -113,11 +113,11 @@ p {
 }
 
 .button-container button:hover {
-    background-color: #CDD4FF;
+    background-color: #498ec5;
 }
 
 .button-container button.selected {
-    background-color: #CDD4FF;
+    background-color: #498ec5;
 }
 
 .grid-container {
@@ -165,7 +165,7 @@ p {
 
 .signal-button {
     font-family: Tektur;
-    background-color: #CDD4FF;
+    background-color: #498ec5;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -176,5 +176,5 @@ p {
 }
 
 .signal-button:hover {
-    background-color: #CDD4FF;
+    background-color: #498ec5;
 }
