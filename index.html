@@ -5,7 +5,7 @@
     <!-- Sets the document's character encoding to UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Sets the page scaling for proper display on mobile devices -->
-    <title>RichFamily Mines</title>
+    <title>Quint Mines</title>
     <!-- Page title -->
     <link rel="stylesheet" href="styles.css">
     <!-- Linking the stylesheet file -->
@@ -32,9 +32,9 @@
     <!-- Container with main content -->
     <div class="container" id="container2">
         <div class="container2">
-            <h1>RichFamily Mines</h1>
+            <h1>Quint Mines</h1>
             <!-- Heading and description -->
-            <p>Select the number of mines:</p>
+            <p>Выбери количество мин:</p>
             <div class="button-container">
                 <!-- Buttons for selecting the number of mines -->
                 <button id="btn1" onclick="selectMines(1, 'btn1')">1</button>
@@ -45,7 +45,7 @@
         </div>
         <!-- Start page image -->
         <div id="img_start">
-            <img src="{{ url_for('static', filename='mines_image.jpg') }}" alt="Mines Image" class="img_start" id="img_start">
+            <img src="{{ url_for(filename='mines_image.jpg') }}" alt="Mines Image" class="img_start" id="img_start">
         </div>
         <!-- Container for the game grid -->
         <div class="grid-container" id="grid-container">
